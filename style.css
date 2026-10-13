@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+}
+
+h1 {
+    color: cadetblue;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 300px;
+    /*margin: 25px;*/
+    background-color: white;
+    border-radius: 10px;
+}
+
+#ageDiv {
+    margin-top: 15px;
+}
+#result {
+    margin-top: 5px;
+    color: cadetblue;
+}
+#btn {
+    margin-top: 15px;
+    width: 300px;
+    background-color: cadetblue;
+    color: white;
+}
+
+input {
+    width: 300px;
+}
+
+#result {
+    font-size: 15px;
+}
+
